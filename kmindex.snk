@@ -2,10 +2,10 @@ rule kmindex_build:
     input:
         fof= config["fof"]
     output:
-        config["project_path"] + "/biomarker/G/index.json"
+        config["project_path"] + "G/index.json"
     threads: config["threads"]
     params:
-        output_dir = config["project_path"] + "/biomarker",
+        output_dir = config["project_path"]
     log:
         stdout = config["project_path"] + "kmindex_build.stdout",
         stderr = config["project_path"] + "kmindex_build.stderr"

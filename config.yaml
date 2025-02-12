@@ -1,5 +1,5 @@
-src_path: "/home/guelou01/test_kmindex_snakemake/"
+src_path: "./"
 project_path: "/mnt/ssd/LM/test_kmindex/"
-fof: "/mnt/projects_tn03/KMER_analysis/tools/kmindex/examples/data/fof1.txt"
+fof: "fof1.txt"
 
 threads: 120

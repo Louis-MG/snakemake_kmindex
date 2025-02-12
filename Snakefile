@@ -11,7 +11,7 @@ ruleorder : kmindex_build
 
 rule all:
     input:
-        config["project_path"] + "/biomarker/G/index.json"
+        config["project_path"] + "G/index.json"
 
 ##########################################################
 ###########            OTHER RULES            ############
